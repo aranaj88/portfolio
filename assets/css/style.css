@@ -94,6 +94,7 @@ height: 100%;
 }
 
 
+
 .image {
   width: 100%;
   height: auto;
@@ -267,8 +268,17 @@ input[type=submit]:hover {
     display: table;
     clear: both;
 }
+footer{ 
 
-
+	text-align: center;
+	
+	
+	
+}
+footer i{
+	margin: 40px 100px;
+	text-shadow: 5px 4px darkgray;
+}
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
         width: 100%;
