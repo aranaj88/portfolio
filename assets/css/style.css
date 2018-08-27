@@ -33,6 +33,7 @@ a{
 a:hover{
 	background-color: white;
 	color: black;
+	text-shadow:5px 5px deepskyblue;
 }
 #logo{
   width: 300px;
@@ -204,10 +205,12 @@ input[type=text], select, textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
     resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
 }
 
 input[type=submit] {
@@ -217,14 +220,43 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+	margin-top: 20px;
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: whitesmoke;
 }
 
-.container {
+.container3 {
     border-radius: 5px;
     padding: 20px;
-	color: deepskyblue;
+}
+
+.col-25 {
+    float: left;
+    width: 55%;
+    margin-top: 6px;
+	color: whitesmoke;
+	font-size: 20px
+}
+
+.col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
 }
