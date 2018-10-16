@@ -6,11 +6,9 @@ html, body{
 
 body{
   margin: 0;
-	background-image: url(../../images/39454375-tech-wallpapers.jpg);
+	background-image: url(background-pattern-design-87.jpg);
 	height: 100%; 
-	background-position: center;
-    
-    background-size: cover;
+	
 }
 
 nav{
@@ -33,7 +31,7 @@ a{
 a:hover{
 	background-color: white;
 	color: black;
-	text-shadow:5px 5px deepskyblue;
+	text-shadow:3px 2px deepskyblue;
 }
 
 .hero{
@@ -276,8 +274,8 @@ footer{
 	
 }
 footer i{
-	margin: 40px 100px;
-	text-shadow: 5px 4px darkgray;
+	margin: 90px 100px;
+	text-shadow: 4px 4px white;
 }
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
